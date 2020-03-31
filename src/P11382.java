@@ -4,18 +4,15 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 /**
- * https://www.acmicpc.net/problem/10895
- *
- * TODO 정수론 확인하기
+ * https://www.acmicpc.net/problem/11382
  */
-public class p10895 {
+public class P11382 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
-		int a = Integer.parseInt(st.nextToken());
-		int k = Integer.parseInt(st.nextToken());
-
-		if ((k != 0) && (a % 2 == 0)) a = 1;
-		System.out.println(a);
+		long a = Long.parseLong(st.nextToken());
+		long b = Long.parseLong(st.nextToken());
+		long c = Long.parseLong(st.nextToken());
+		System.out.println(a + b + c);
 	}
 }

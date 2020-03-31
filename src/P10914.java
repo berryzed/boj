@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
  *
  * TODO 26을 더해주는 이유 확인하기
  */
-public class p10914 {
+public class P10914 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());

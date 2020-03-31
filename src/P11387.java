@@ -72,7 +72,7 @@ class CombatData {
 	}
 }
 
-public class p11387 {
+public class P11387 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

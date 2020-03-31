@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 /**
  * https://www.acmicpc.net/problem/11383
  */
-public class p11383 {
+public class P11383 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
